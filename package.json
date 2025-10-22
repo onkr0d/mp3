@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "bun run vite",
-    "build": "bun run tsc -b && bun run vite build",
-    "lint": "bun run eslint .",
-    "preview": "bun run vite preview"
+    "dev": "npm run vite",
+    "build": "npm run tsc -b && npm run vite build",
+    "lint": "npm run eslint .",
+    "preview": "npm run vite preview"
   },
   "dependencies": {
     "react": "^19.1.1",
