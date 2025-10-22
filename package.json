@@ -4,10 +4,10 @@
   "version": "0.0.0",
   "type": "module",
   "scripts": {
-    "dev": "npm run vite",
-    "build": "npm run tsc -b && npm run vite build",
-    "lint": "npm run eslint .",
-    "preview": "npm run vite preview"
+    "dev": "vite",
+    "build": "npx tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
   },
   "dependencies": {
     "react": "^19.1.1",
